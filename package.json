@@ -1,0 +1,34 @@
+{
+  "name": "wp-fire-gutenburg",
+  "version": "1.0.0",
+  "description": "Custom gutenburg block",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:md:docs": "wp-scripts lint-md-docs",
+    "lint:md:js": "wp-scripts lint-md-js",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaviranik/wp-fire-gutenburg.git"
+  },
+  "author": "Zabir Anik",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/xaviranik/wp-fire-gutenburg/issues"
+  },
+  "homepage": "https://github.com/xaviranik/wp-fire-gutenburg#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^19.2.3"
+  }
+}
