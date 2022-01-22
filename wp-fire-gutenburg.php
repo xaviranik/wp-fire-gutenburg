@@ -13,6 +13,8 @@
 
 defined( 'ABSPATH' ) || exit;
 
+require_once __DIR__ . '/vendor/autoload.php';
+
 /**
  * FireGutenburg Class.
  */
@@ -31,6 +33,9 @@ final class FireGutenburg {
 	public function __construct() {
 		// Defines constants.
 		$this->define_constants();
+
+		// Initialize the plugin
+		add_action( 'plugins_loaded', [ $this, 'init_plugin' ] );
 	}
 
 	/**
@@ -63,6 +68,15 @@ final class FireGutenburg {
 		}
 
 		return $instance;
+	}
+
+	/**
+	 * Initialize the plugin.
+	 *
+	 * @return void
+	 */
+	public function init_plugin() {
+		new WpFireGutenburg\Block();
 	}
 }
 
