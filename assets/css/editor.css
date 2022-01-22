@@ -1,0 +1,7 @@
+.wp-fire-block {
+	background: #F1F5F9;
+	color: #1E293B;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+}

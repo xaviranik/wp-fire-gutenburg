@@ -34,7 +34,7 @@ final class FireGutenburg {
 		// Defines constants.
 		$this->define_constants();
 
-		// Initialize the plugin
+		// Initialize the plugin.
 		add_action( 'plugins_loaded', [ $this, 'init_plugin' ] );
 	}
 
