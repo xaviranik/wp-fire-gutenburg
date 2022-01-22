@@ -1,0 +1,18 @@
+{
+    "name": "xaviranik/wp-fire-gutenburg",
+    "description": "Custom gutenburg block",
+    "type": "wordpress-plugin",
+    "license": "gpl-v2-or-later",
+    "autoload": {
+        "psr-4": {
+            "WpFireGutenburg\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zabir Anik",
+            "email": "xaviranik.me@gmail.com"
+        }
+    ],
+    "require": {}
+}
