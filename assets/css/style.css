@@ -5,3 +5,11 @@
 	border-radius: 0.5rem;
 	filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
 }
+
+.wp-ice-block {
+	background: #DBEAFE;
+	color: #1E3A8A;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+}

@@ -76,7 +76,8 @@ final class FireGutenburg {
 	 * @return void
 	 */
 	public function init_plugin() {
-		new WpFireGutenburg\Block();
+		new WpFireGutenburg\FireBlock();
+		new WpFireGutenburg\IceBlock();
 	}
 }
 

@@ -23,7 +23,7 @@ wp.blocks.registerBlockType( 'wp-fire-gutenburg/fire-block', {
 
     save: function () {
         return wp.element.createElement(
-            'p',
+            'div',
             { className: 'wp-fire-block' },
             wp.i18n.__( 'Saved to database', 'wp-fire-gutenburg' )
         );

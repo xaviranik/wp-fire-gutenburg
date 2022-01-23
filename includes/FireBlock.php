@@ -3,11 +3,11 @@
 namespace WpFireGutenburg;
 
 /**
- * Gutenberg Block Initialization.
+ * Gutenberg FireBlock Initialization.
  *
  * @package WpFireGutenburg
  */
-class Block {
+class FireBlock {
 
 	/**
 	 * Constructor.
@@ -40,7 +40,7 @@ class Block {
 	 * @return void
 	 */
 	public function register_scripts() {
-		// Block frontend style.
+		// FireBlock frontend style.
 		wp_register_style(
 			'wp-fire-block-frontend-style',
 			FIRE_GUTENBURG_URL . '/assets/css/style.css',
@@ -48,7 +48,7 @@ class Block {
 			filemtime( FIRE_GUTENBURG_PATH . '/assets/css/style.css' )
 		);
 
-		// Block editor style.
+		// FireBlock editor style.
 		wp_register_style(
 			'wp-fire-block-editor-style',
 			FIRE_GUTENBURG_URL . '/assets/css/editor.css',
@@ -56,7 +56,7 @@ class Block {
 			filemtime( FIRE_GUTENBURG_PATH . '/assets/css/editor.css' )
 		);
 
-		// Block editor script.
+		// FireBlock editor script.
 		wp_register_script(
 			'wp-fire-block-editor-script',
 			FIRE_GUTENBURG_URL . '/assets/js/fire-block.js',
