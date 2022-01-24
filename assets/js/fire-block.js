@@ -9,7 +9,7 @@ wp.blocks.registerBlockType( 'wp-fire-gutenburg/fire-block', {
             'div',
             { className: 'wp-fire-block' },
             wp.element.createElement(
-                'h2',
+                'p',
                 null,
                 wp.i18n.__( 'WP Fire Gutenberg', 'wp-fire-gutenburg' )
             ),
